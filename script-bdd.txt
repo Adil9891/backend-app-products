@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS  products
+(
+    id serial ,
+    nom varchar (50),
+    description varchar (50),
+    price money,
+    picture text ,
+   PRIMARY KEY (id)
+)
