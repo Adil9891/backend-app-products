@@ -5,6 +5,6 @@ CREATE TABLE IF NOT EXISTS  products
     description varchar (50),
     price money,
     picture text ,
-stock boolean
+    stock boolean,
    PRIMARY KEY (id)
 )
